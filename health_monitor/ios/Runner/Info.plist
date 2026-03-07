@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<!-- =====================================================================
+	     Privacy usage descriptions (required for App Store / device install)
+	     ===================================================================== -->
+
+	<!-- Microphone access (bonus audio recording) -->
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Health Monitor uses the microphone to record audio for heart rate and breathing analysis (bonus feature).</string>
+
+	<!-- Motion sensors (accelerometer + gyroscope) – iOS 13+ requires this -->
+	<key>NSMotionUsageDescription</key>
+	<string>Health Monitor reads the accelerometer and gyroscope to derive heartbeat and breathing patterns.</string>
+
+	<!-- =====================================================================
+	     Standard Flutter / iOS boilerplate
+	     ===================================================================== -->
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Health Monitor</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>health_monitor</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(FLUTTER_BUILD_NUMBER)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<!-- Portrait-only for consistent sensor axis orientation -->
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>
