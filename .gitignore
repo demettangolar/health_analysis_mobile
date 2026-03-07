@@ -1,0 +1,42 @@
+# Flutter/Dart build artifacts
+health_monitor/.dart_tool/
+health_monitor/build/
+health_monitor/.flutter-plugins
+health_monitor/.flutter-plugins-dependencies
+health_monitor/.pub-cache/
+health_monitor/.pub/
+health_monitor/pubspec.lock
+
+# Android build output
+health_monitor/android/.gradle/
+health_monitor/android/local.properties
+health_monitor/android/captures/
+health_monitor/android/key.properties
+
+# iOS build output
+health_monitor/ios/Flutter/flutter_export_environment.sh
+health_monitor/ios/Flutter/Generated.xcconfig
+health_monitor/ios/Pods/
+health_monitor/ios/.symlinks/
+health_monitor/ios/Flutter/.last_build_id
+
+# Xcode
+*.xcworkspace
+*.xcuserstate
+*.xcscheme
+
+# Python / analysis artifacts
+analysis/.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# Generated plots (reproducible from notebook)
+analysis/*.png
+analysis/*.pdf
+
+# macOS
+.DS_Store
