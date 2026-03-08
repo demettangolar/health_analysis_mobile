@@ -13,7 +13,7 @@ dependencies:
   sensors_plus: ^4.0.2
 
   # Microphone recording (bonus)
-  record: ^5.1.2
+  record: ^6.0.0
 
   # Runtime permissions
   permission_handler: ^11.3.1
